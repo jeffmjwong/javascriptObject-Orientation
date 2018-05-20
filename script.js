@@ -1,14 +1,9 @@
-const fruits = ['apple', 'pear', 'strawberry']
-console.log(fruits.length)
-
-const denis = {
-  animal: 'dog',
-  age: 20,
-  color: 'red',
-  bark: function() {
-    console.log('Woof!')
+class Pet {
+  constructor(animal, age, breed) {
+    this.animal = animal;
+    this.age = age;
+    this.breed = breed;
   }
-}
 
-const x = 'animal'
-console.log(denis[x])
+
+}
